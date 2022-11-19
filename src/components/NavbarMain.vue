@@ -1,6 +1,5 @@
 <script setup>
 import { ref } from "vue";
-import { useRouter } from "vue-router";
 import ButtonMedium from "./ButtonMedium.vue";
 import { useSongStore } from "@/stores/song";
 

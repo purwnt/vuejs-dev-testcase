@@ -1,7 +1,7 @@
 <script setup>
 import CardSong from "../components/CardSong.vue";
 import { useSongStore } from "@/stores/song";
-import { onMounted, ref } from "vue";
+import { onMounted } from "vue";
 import { useRoute } from "vue-router";
 
 const { fetchResults, filter, results } = useSongStore();
